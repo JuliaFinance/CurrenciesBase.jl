@@ -2,11 +2,7 @@ module CurrenciesBase
 
 using FixedPointDecimals
 
-# import ..Currencies
-# using ..CurrencyData
-
 import Base: +, -, *, /, ==
-# using Compat
 
 # Exports
 export AbstractMonetary, Monetary
